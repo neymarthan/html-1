@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h1>ทดสอบ h1</h1>
+        <h2>ทดสอบ h2</h2>
+        <h3>ทดสอบ h3</h3>
+        <font face="TH SarabunPSK" style="font-size: 30pX;" >ทดสอบ fornt</font>
+        <form>
+        <table class="table">
+        <thead class="thead-Dark">
+            <tr>
+                <th>ประเภทข้อมูล</th>
+                <th>ข้อมูล</th>
+            </tr>
+            </thead>
+        <tr>
+            <td>รหัสนักศึกษา :</td>
+            <td><input type="text" required/></td>
+        </tr>
+        <tr>
+            <td>ชื่อ นามสกุล :</td>
+            <td><input type="text" required/></td>
+        </tr>
+        <tr class="table-danger">
+            <td>รหัสผ่าน :</td>
+            <td><input type="password" required/></td>
+        </tr>
+        <tr>
+            <td>วันเกิด :</td>
+            <td><input type="date" required/></td>
+        </tr>
+        <tr>
+            <td>ที่อยู่ :</td>
+            <td><textarea class="form-control" rows="5" id="comment"></textarea></td>
+        </tr>
+        <tr>
+            <td>อาหารที่ชอบ :</td>
+            <td><select class="from-control" id="sel1">
+                <option>ผักกระเพรา</option>
+                <option>ผัดคน้า</option>
+                <option>ผัดไทย</option>
+                <option>ผัดเผ็ด</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>ส่วนสูง :</td>
+            <td><input type="number" min="100" max="250" required></td>
+        </tr>
+        <tr>
+            <td>น้ำหนัก :</td>
+            <td><input type="number" min="30" max="300" required></td>
+        </tr>
+        <tr>
+            <td>email :</td>
+            <td><input type="email" required></td>
+        </tr>
+        <tr>
+            <td>เว็บของคุณ :</td>
+            <td><input type="url" required></td>
+        </tr>
+        <tr>
+            <td>เบอร์โทร :</td>
+            <td><input type="tel" required></td>
+        </tr>
+        <tr>
+            <td>สีที่ชอบ :</td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td>เพศ :</td>
+            <td><input type="radio" name="gender" value="1" required checked/> ชาย </td>
+            <td><input type="radio" name="gender" value="2" required/> หญิง </td>
+        </tr>
+        <tr>
+            <td>งานอดิเรก :</td>
+            <td><input type="checkbox" value="1" required checked/> อ่านหนังสือ</td>
+            <td><input type="checkbox" value="2" required/> ดูโทรทัศน์</td>
+            <td><input type="checkbox" value="3" required/> เล่นกีฬา</td>
+        </tr>
+        <tr>
+            <td>อัพโหลดข้อมูล :</td>
+            <td><input type="file" required/></td>
+        </tr>
+        </table>
+        <input type="submit" value="ยืนยันข้อมูล">
+        <input type="reset" value="ยกเลิก" class="btn btn-warning">
+        <!---    ข้อมูล 1:<input type="text" /> <br />
+            ข้อมูล 2:<input type="password" /><br />
+            ข้อมูล 3:<input type="hidden" value="name" /><br />
+            ข้อมูล 4:<input type="radio" name="radio" /><br />
+            ข้อมูล 5:<input type="checkbox" value="checkbox" /><br />
+            ข้อมูล 6:<input type="file" /><br /> --->
+        </form>
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-link">Link</button>
+    </body>
+</html>
