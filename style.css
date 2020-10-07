@@ -1,0 +1,38 @@
+body{
+    background-color: salmon;
+}
+header,footer{
+    background-color: snow;
+}
+article,aside{
+    background-color: springgreen;
+}
+aside{
+    float: right;
+    width:18%
+}
+article{
+    float:left;
+    width:80%;
+    margin-right:2%;
+}
+footer{
+    clear: both;
+    position: relative;
+    top: 15px;
+}
+header,footer,aside,article{
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+}    
+aside li,nav li{
+    list-style: none;
+}
+header,footer,section,nav{
+    width:1000px;
+    margin:auto;
+}
+nav li{
+    display: inline-block;
+}
